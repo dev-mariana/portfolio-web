@@ -1,0 +1,26 @@
+<header>
+  <nav class="desktop">
+    <ul>
+      <li>Início</li>
+      <li>Sobre</li>
+      <li>Projetos</li>
+      <li>Contato</li>
+    </ul>
+  </nav>
+
+  <div class="mobile">
+    <div class="menu-trigger">
+      <button (click)="toggle()">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+    </div>
+    <nav [ngClass]="menuOpen ? 'show' : 'hidden'">
+      <ul>
+        <li>Início</li>
+        <li>Sobre</li>
+        <li>Projetos</li>
+        <li>Contato</li>
+      </ul>
+    </nav>
+  </div>
+</header>
