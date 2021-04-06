@@ -51,6 +51,17 @@ li:hover {
     justify-content: flex-start;
   }
 
+  .menu-trigger {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    cursor: pointer; 
+  }
+
+  .btn-navbar {
+    width: 2rem;
+  }
+
   ul {
     flex-direction: column;  
   }

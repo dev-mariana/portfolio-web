@@ -9,11 +9,11 @@
   </nav>
 
   <div class="mobile">
-    <div class="menu-trigger">
-      <button (click)="toggle()">
-        <span><i class="fas fa-bars"></i></span>
+    <span class="menu-trigger">
+      <button class="btn-navbar" (click)="toggle()">
+        <i class="fas fa-bars"></i>
       </button>
-    </div>
+    </span>
     <nav [ngClass]="menuOpen ? 'show' : 'hidden'">
       <ul>
         <li>Início</li>
