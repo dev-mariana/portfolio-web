@@ -1,0 +1,18 @@
+@import "../../../styles.scss";
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4rem;
+}
+
+.salutation {
+  color: $text-color;
+  font-size: 2rem;
+}
+
+.apresentation {
+  color: #818181;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
