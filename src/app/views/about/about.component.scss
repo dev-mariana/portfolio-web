@@ -17,6 +17,18 @@
   line-height: 2rem;
 }
 
+.icons {
+  margin-top: 1rem;
+
+  a {
+    margin-left: 12px !important;
+
+    .fab {
+      font-size: 2rem;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .content {
     flex-direction: column;
@@ -32,5 +44,10 @@
 
   .card {
     margin-bottom: 2rem;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: flex-start;
   }
 }
