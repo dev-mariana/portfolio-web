@@ -21,12 +21,19 @@
   margin-top: 1rem;
 
   a {
-    margin-left: 12px !important;
+    margin-left: 12px;
 
     .fab {
       font-size: 2rem;
+      color: #8257e6;
+    }
+
+    .fab:hover {
+      color: $text-color;
+      transition: .5s ease all;
     }
   }
+
 }
 
 @media (max-width: 768px) {
