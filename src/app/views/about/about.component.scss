@@ -30,10 +30,51 @@
 
     .fab:hover {
       color: $text-color;
-      transition: .5s ease all;
+      transition: 0.5s ease all;
     }
   }
+}
 
+.skills {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.skills-content {
+  width: 100%;
+}
+
+.title {
+  font-size: 1.3rem;
+  color: $text-color;
+}
+
+.progress {
+  display: flex;
+  height: 1.5rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+  width: 60%;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #8257e6;
+  transition: width 0.6s ease;
+  width: 90%;
+
+  .description {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
 }
 
 @media (max-width: 768px) {
@@ -50,11 +91,28 @@
   }
 
   .card {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
   .icons {
     display: flex;
     justify-content: flex-start;
+  }
+
+  .title {
+    margin-bottom: 2rem;
+  }
+
+  .skills {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .skills-content {
+    margin-bottom: 5rem;
+  }
+
+  .progress {
+    width: 100%;
   }
 }
